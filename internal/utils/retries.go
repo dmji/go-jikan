@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dmji/jikan/retry"
+	"github.com/dmji/go-jikan/retry"
 )
 
 // Deprecated: Use retry.BackoffStrategy instead.

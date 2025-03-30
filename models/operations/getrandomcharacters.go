@@ -1,7 +1,7 @@
 package operations
 
 import (
-	"github.com/dmji/jikan/models/components"
+	"github.com/dmji/go-jikan/models/components"
 )
 
 // GetRandomCharactersResponseBody - Returns a random character resource

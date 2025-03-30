@@ -1,4 +1,4 @@
-module github.com/dmji/jikan
+module github.com/dmji/go-jikan
 
 go 1.24
 

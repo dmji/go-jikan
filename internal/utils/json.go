@@ -11,7 +11,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/dmji/jikan/types"
+	"github.com/dmji/go-jikan/types"
 
 	"github.com/ericlagergren/decimal"
 )

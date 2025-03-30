@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/dmji/jikan/internal/hooks"
-	"github.com/dmji/jikan/internal/utils"
-	"github.com/dmji/jikan/models/apierrors"
-	"github.com/dmji/jikan/models/components"
-	"github.com/dmji/jikan/models/operations"
-	"github.com/dmji/jikan/retry"
+	"github.com/dmji/go-jikan/internal/hooks"
+	"github.com/dmji/go-jikan/internal/utils"
+	"github.com/dmji/go-jikan/models/apierrors"
+	"github.com/dmji/go-jikan/models/components"
+	"github.com/dmji/go-jikan/models/operations"
+	"github.com/dmji/go-jikan/retry"
 )
 
 type JikanManga struct {

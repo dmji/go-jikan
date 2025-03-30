@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/dmji/jikan/internal/utils"
-	"github.com/dmji/jikan/retry"
+	"github.com/dmji/go-jikan/internal/utils"
+	"github.com/dmji/go-jikan/retry"
 )
 
 var ErrUnsupportedOption = errors.New("unsupported option")

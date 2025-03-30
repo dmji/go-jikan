@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/dmji/jikan/models/components"
+	"github.com/dmji/go-jikan/models/components"
 )
 
 // QueryParamFilter - Filter topics

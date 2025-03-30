@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dmji/jikan/internal/utils"
+	"github.com/dmji/go-jikan/internal/utils"
 )
 
 type EntryType string

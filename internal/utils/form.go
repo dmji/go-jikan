@@ -10,7 +10,7 @@ import (
 
 	"github.com/ericlagergren/decimal"
 
-	"github.com/dmji/jikan/types"
+	"github.com/dmji/go-jikan/types"
 )
 
 func populateForm(paramName string, explode bool, objType reflect.Type, objValue reflect.Value, delimiter string, defaultValue *string, getFieldName func(reflect.StructField) string) url.Values {

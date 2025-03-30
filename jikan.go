@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/dmji/jikan/internal/hooks"
-	"github.com/dmji/jikan/internal/utils"
-	"github.com/dmji/jikan/retry"
+	"github.com/dmji/go-jikan/internal/hooks"
+	"github.com/dmji/go-jikan/internal/utils"
+	"github.com/dmji/go-jikan/retry"
 )
 
 // ServerList contains the list of servers available to the SDK
@@ -247,7 +247,7 @@ func New(opts ...SDKOption) *Jikan {
 			OpenAPIDocVersion: "4.0.0",
 			SDKVersion:        "0.1.0",
 			GenVersion:        "2.563.0",
-			UserAgent:         "speakeasy-sdk/go 0.1.0 2.563.0 4.0.0 github.com/dmji/jikan",
+			UserAgent:         "speakeasy-sdk/go 0.1.0 2.563.0 4.0.0 github.com/dmji/go-jikan",
 			Hooks:             hooks.New(),
 		},
 	}

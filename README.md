@@ -1,6 +1,6 @@
-# github.com/dmji/jikan
+# github.com/dmji/go-jikan
 
-Developer-friendly & type-safe Go SDK specifically catered to leverage _github.com/dmji/jikan_ API.
+Developer-friendly & type-safe Go SDK specifically catered to leverage _github.com/dmji/go-jikan_ API.
 
 <div align="left">
     <a href="https://www.speakeasy.com/?utm_source=github-com/dmji/go-jikan&utm_campaign=go"><img src="https://custom-icon-badges.demolab.com/badge/-Built%20By%20Speakeasy-212015?style=for-the-badge&logoColor=FBE331&logo=speakeasy&labelColor=545454" /></a>
@@ -129,7 +129,7 @@ For more information about the API: [About](https://jikan.moe)
 
 <!-- $toc-max-depth=2 -->
 
-- [github.com/dmji/jikan](#githubcomdmjigo-jikan)
+- [github.com/dmji/go-jikan](#githubcomdmjigo-jikan)
 - [Information](#information)
   - [Rate Limiting](#rate-limiting)
   - [JSON Notes](#json-notes)
@@ -159,7 +159,7 @@ For more information about the API: [About](https://jikan.moe)
 To add the SDK as a dependency to your project:
 
 ```bash
-go get github.com/dmji/jikan
+go get github.com/dmji/go-jikan
 ```
 
 <!-- End SDK Installation [installation] -->
@@ -175,7 +175,7 @@ package main
 
 import (
 	"context"
-	gojikan "github.com/dmji/jikan"
+	gojikan "github.com/dmji/go-jikan"
 	"log"
 )
 
@@ -210,8 +210,8 @@ package main
 
 import (
 	"context"
-	gojikan "github.com/dmji/jikan"
-	"github.com/dmji/jikan/retry"
+	gojikan "github.com/dmji/go-jikan"
+	"github.com/dmji/go-jikan/retry"
 	"log"
 	"models/operations"
 )
@@ -249,8 +249,8 @@ package main
 
 import (
 	"context"
-	gojikan "github.com/dmji/jikan"
-	"github.com/dmji/jikan/retry"
+	gojikan "github.com/dmji/go-jikan"
+	"github.com/dmji/go-jikan/retry"
 	"log"
 )
 
@@ -306,8 +306,8 @@ package main
 import (
 	"context"
 	"errors"
-	gojikan "github.com/dmji/jikan"
-	"github.com/dmji/jikan/models/apierrors"
+	gojikan "github.com/dmji/go-jikan"
+	"github.com/dmji/go-jikan/models/apierrors"
 	"log"
 )
 
@@ -344,7 +344,7 @@ package main
 
 import (
 	"context"
-	gojikan "github.com/dmji/jikan"
+	gojikan "github.com/dmji/go-jikan"
 	"log"
 )
 

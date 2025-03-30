@@ -11,7 +11,7 @@ import (
 
 	"github.com/ericlagergren/decimal"
 
-	"github.com/dmji/jikan/types"
+	"github.com/dmji/go-jikan/types"
 )
 
 func GenerateURL(_ context.Context, serverURL, path string, pathParams interface{}, globals interface{}) (string, error) {

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dmji/jikan/internal/utils"
-	"github.com/dmji/jikan/models/components"
+	"github.com/dmji/go-jikan/internal/utils"
+	"github.com/dmji/go-jikan/models/components"
 )
 
 type GetUserReviewsRequest struct {
