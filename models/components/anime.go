@@ -9,12 +9,15 @@ import (
 type AnimeType string
 
 const (
-	AnimeTypeTv      AnimeType = "TV"
-	AnimeTypeOva     AnimeType = "OVA"
-	AnimeTypeMovie   AnimeType = "Movie"
-	AnimeTypeSpecial AnimeType = "Special"
-	AnimeTypeOna     AnimeType = "ONA"
-	AnimeTypeMusic   AnimeType = "Music"
+	AnimeTypeTv        AnimeType = "TV"
+	AnimeTypeOva       AnimeType = "OVA"
+	AnimeTypeMovie     AnimeType = "Movie"
+	AnimeTypeSpecial   AnimeType = "Special"
+	AnimeTypeOna       AnimeType = "ONA"
+	AnimeTypeCM        AnimeType = "CM"
+	AnimeTypePV        AnimeType = "PV"
+	AnimeTypeTvSpecial AnimeType = "TV Special"
+	AnimeTypeMusic     AnimeType = "Music"
 )
 
 func (e AnimeType) ToPointer() *AnimeType {
@@ -37,7 +40,13 @@ func (e *AnimeType) UnmarshalJSON(data []byte) error {
 		fallthrough
 	case "ONA":
 		fallthrough
+	case "CM":
+		fallthrough
+	case "PV":
+		fallthrough
 	case "Music":
+		fallthrough
+	case "TV Special":
 		*e = AnimeType(v)
 		return nil
 	default:
